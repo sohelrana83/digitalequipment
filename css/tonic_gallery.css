@@ -1,0 +1,166 @@
+/*----------- PAGINATION STYLES -----------*/
+#portfolio_pagination {
+	float: left;
+	margin-top: 20px;
+}
+
+#portfolio_pagination ul{
+	margin: 0;
+	padding: 0;	
+}
+
+#portfolio_pagination ul li {
+	width: 15px;
+	height: 15px;
+	background: url(../images/page_nav.png);
+	background-repeat: no-repeat;
+	float: left;
+	list-style: none;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#portfolio_pagination ul li:hover,#portfolio_pagination ul li.selected {
+	background-image: url(../images/page_nav_active_black.png);
+}
+
+/*----------- ITEM STYLES  -----------*/
+
+.portfolio_item {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	display: none;
+	background-color: #000;
+}
+
+.portfolio_item a{
+	display: block;
+}
+
+.portfolio_item a img{
+	border:5px solid #666;
+	float: left;
+}
+.portfolio_item a:hover img{
+	border:5px solid #df2027;
+	float: left;
+}
+
+.page_wrapper {
+	float: left;
+}
+
+/*----------- CATEGORY FILTER STYLES -----------*/
+
+#portfolio_categories {
+    background: #df2027;
+    width: 100%;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    text-shadow: 1px 6px black;
+    padding-top: 17px;
+}
+/*
+#portfolio_categories_left{
+	width:8px;
+	height:37px;
+	background-image: url(../images/portfolio_navigation_bg_left.png);
+	float:left;
+	background-repeat: no-repeat;	
+}
+
+#portfolio_categories_right{
+	width:8px;
+	height:37px;
+	background-image: url(../images/portfolio_navigation_bg_right.png);
+	float:right;		
+	background-repeat: no-repeat;	
+}
+*/
+
+#portfolio_categories ul {
+		margin: 8px 0 0 8px;
+	padding: 0;
+	float: left;
+	padding: 0;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	height: 40px;
+	float:left;
+	
+}
+
+#portfolio_categories ul li {
+	padding: 0;
+	display: inline;
+	position: relative;
+	float: left;
+	text-transform: uppercase;
+	margin: 0 12px;
+	line-height: 32px;
+	font-size: 15px;
+	font-family: "Trebuchet MS";
+	color: #fff;
+}
+
+#portfolio_categories ul li.selected {
+	color: #fff;
+	/*text-shadow: 1px 1px #436e9c;
+	top: -1px;*/
+	position: relative;
+}
+
+#portfolio_categories ul li:hover a {
+	text-decoration: none;
+}
+
+.port_cat_active {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+
+}
+
+.port_cat_l {
+	background: #000;
+	width: 15px;
+	height: 32px;
+	float: left;
+}
+
+.port_cat_r {
+	background: #000;
+	width: 15px;
+	height: 32px;
+	float: left;
+}
+
+.port_cat {
+	background: #000;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	float: left;
+}
+
+.loading {
+	width: 54px;
+	height: 55px;
+	background-image: url(../images/ajax-loader.gif);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:80px;
+}
+
+
+
+
